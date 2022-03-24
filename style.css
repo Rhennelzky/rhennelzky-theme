@@ -1,0 +1,547 @@
+/*
+Theme Name: Hexanology
+Author: Rhennel Carleta
+Description: A bootstrap theme for fast wordpress.
+Version: 0.0.1
+Tags: hexanology
+*/
+
+.port_button a{
+
+	background-color:#02AED6;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	color:white;
+	font-weight:700;
+
+}
+
+#send{
+
+	background-color:#02AED6;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:10px;
+	padding-top:10px;
+	float:right;
+	color:white;
+	font-weight:700;
+	border-width:0px;
+
+}
+
+.input_form{
+
+	width:100%;
+	height: 40px;
+	padding:10px;
+	color:black;
+	font-size:15px;
+	font-weight:100;
+
+}
+
+#message{
+
+	width:100%;
+	padding:10px;
+	height:120px;
+
+}
+
+.label_form{
+
+	color:grey;
+	font-size:13pt;
+	font-weight:500;
+
+}
+
+#first_name, #last_name{
+
+	width:100%;
+
+}
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.port_button {
+
+	padding:10px;
+	background-color:#02AED6;
+	color:white;
+
+}
+
+.port_img:hover{
+
+	border-color:black;
+	border-width:5px;
+	border-style:solid;
+
+}
+
+
+
+#svgContainer { 
+	z-index: -10;
+	position:absolute;
+	
+	opacity: 0.5;
+}
+
+
+.staff:hover{
+
+
+	color:#02AED6;
+
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+     
+   
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+ 
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    
+   
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+.change_color:hover{
+	
+	-webkit-animation: myfirst 3s 1; /* Safari 4.0 - 8.0 */
+    
+    animation: myfirst 3s 1;
+
+    animation-fill-mode: forwards;
+    
+	
+}
+
+@-webkit-keyframes myfirst {
+   
+   50%  {color: #4aa5ba; }
+   
+    100% {
+
+    	color: #02aed6;
+    	text-shadow: 4px 4px grey;
+
+    }
+
+
+
+    }
+}
+
+@keyframes myfirst {
+   
+    50%  {color: #4aa5ba; }
+   
+    100% {
+
+    	color: #02aed6;
+    	text-shadow: 4px 4px grey;
+
+    }
+
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
+
+#homepage_tagline{
+	
+	padding-top:100px;
+	
+}
+
+.main_menu li a{
+
+	color:white !important;
+
+}
+
+#content_king{
+
+	padding-top:130px;
+
+}
+
+
+#blog_banner{
+
+	background-image : url('/wp-content/uploads/2018/02/converging_solutions_blogging-min.jpeg');
+	height:600px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#homepage_banner{
+
+	background-image : url('/wp-content/uploads/2017/12/home_banner_optimize-min.jpg');
+	padding-top : 100px;
+	height: 1000px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#portfolio_banner{
+
+	background-image : url('/wp-content/uploads/2018/02/sunset-day-summer-sky-90762-min.jpeg');
+	height: 450px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#portfolio_wall{
+
+	background-image : url('/wp-content/uploads/2018/02/portfolio_bkg.jpeg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#about_us{
+
+	padding-top : 100px;
+	height: 1000px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.smarter{
+	padding-top:50px;
+	padding-bottom:50px;
+	background-image:url('/wp-content/uploads/2017/12/content2_bkg_optimize-min.jpg'); 
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+
+	font-size:20pt;
+	font-weight:800;
+
+}
+
+h2{
+
+	font-size:14pt;
+	font-weight:800;
+
+}
+
+p{
+
+	font-size:12pt;
+
+}
+
+.home_feat{
+
+	font-size:50pt !important;
+	margin-left:-40pt !important;
+	color:grey;
+
+}
+
+.home_services_left{
+	
+	 text-align:right;
+}
+
+.home_services_right{
+	
+	 text-align:left;
+	padding-left:50px;
+}
+
+#home_mobile{
+	
+	text-align:center;
+}
+
+#homepage_asks_us{
+		
+	cursor:pointer;
+		
+	}
+
+@media only screen and (max-width:1030px) and (min-width:781px) {
+
+	#our_port{
+
+
+		font-size:35pt !important;
+
+	}
+
+
+	#who_we_are{
+
+
+		background-color:white;
+
+	}
+
+	.testi{
+
+
+		height:auto !important;
+
+	}
+
+	.home_services_right{
+		
+		padding-left:100px !important;
+		padding-right:10px !important;
+		
+	}
+
+	#portfolio_wall{
+
+	    background-image:url('/wp-content/uploads/2018/02/wood_background-min.jpg');
+	    background-size:contain;
+	    background-repeat:repeat;
+
+	}
+
+
+
+}
+
+
+@media only screen and (max-width:780px) and (min-width:0px) {
+
+	#blog_banner{
+
+
+		height:1000px;
+
+
+
+	}
+
+	.address{
+
+		padding-top:100px;
+
+	}
+
+
+	#portfolio_wall{
+
+	    background-image:url('/wp-content/uploads/2018/02/wood_background-min.jpg');
+	    background-size:contain;
+	    background-repeat:repeat;
+
+	}
+
+	.contact_menu{
+
+		background-color:transparent !important;
+		padding-left:16px !important;
+		margin-left:0px;
+
+	}
+
+	.blog_img{
+
+		display:none;
+	}
+
+	.blog_c{
+
+		padding-left:0px !important;
+
+	}
+
+	.row-flex{
+
+		display:block !important;
+	}
+
+	#button_copywriting{
+
+
+		font-size:13px !important;
+		padding:10px !important;
+
+	}
+
+	#content_king{
+
+
+		background-image : url('/wp-content/uploads/2018/02/converging_solutions_blogging-min.jpeg');
+		height:1000px;
+
+	}
+
+	#our_port{
+
+
+		font-size:35pt !important;
+
+	}
+
+	.check_out{
+
+
+		text-align:center !important;
+
+	}
+
+	#par1, #par2, #par3{
+
+		width:90% !important;
+		
+
+	}
+
+	#tablet_phone{
+
+		width:300px !important;
+
+	}
+
+	#who_we_are{
+
+
+		background-color:white;
+
+	}
+
+	#the_content{
+
+
+		width:100% !important;
+
+	}
+
+	#the_video{
+
+
+		display:none;
+
+	}
+
+	.subscribe{
+
+		width:120px !important;
+
+	}
+
+	.testi{
+
+
+		height:auto !important;
+
+	}
+
+	.pad_left{
+
+		padding-left:10px !important;
+		text-align:center !important;
+
+	}
+	
+	#homepage_asks_col{
+		
+		text-align:center !important;
+		
+	}
+	
+	#homepage_asks_us{
+		
+		
+		font-size:15px !important;
+		
+	}
+	
+
+	
+	#homepage_tagline{
+	
+		padding-top:50px;
+	
+	}	
+	
+	#home_mobile{
+		
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	
+	.home_services_right{
+		
+		padding-left:10px;
+		
+	}
+}
